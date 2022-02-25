@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Ghost Shadow';
+    src: url('./assets/font/Ghost\ Shadow.ttf') format('truetype');
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/images/forca.png');
+    margin-top: 70px;
+}
+
+#instructions_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    background-color: rgba(255, 255, 255, 0.842);
+
+}
+
+#game_instruction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+p{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px gray;
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 12px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+ #back_button {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 2px;
+    width: 120px;
+    font-size: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 2.6px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 1px #5c5c5c;
+    transition: box-shadow 0.3s ease, transform 0.3s;
+}
+
+#back_button:active {
+    box-shadow: 0 0 0 0 rgb(70, 70, 70), inset 3px 3px 3px rgb(70, 70, 70);
+    transform: translate(3px, 3px);
+} 
+
+
+@media (min-width: 796px){
+    p{
+        width: 500px;
+        padding: 20px;
+        font-size: 18px;
+        font-weight: normal;
+    }
+}

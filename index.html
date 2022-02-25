@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JOGO DA FORCA</title>
+  </head>
+  <body>
+
+    <div id="sound_button">
+      <audio
+        controls
+        src="./assets/dead-silence.mp3"
+        type="audio/mpeg"
+        autoplay
+      ></audio>
+    </div>
+
+    <div id="game_container">
+      <div class="image_game">
+        <img class="image_game" src="./assets/images/forca.png" />
+      </div>
+
+      <div id="opening_game">
+        <div id="game_title">
+          <h1>JOGO DA FORCA</h1>
+        </div>
+
+        <div id="buttons_container">
+
+          <a href="instrucoes.html">
+          <button class="game_button">Instruções</button>
+          </a>
+
+          <a href="jogo.html">
+            <button class="game_button">Jogar</button>
+          </a>
+
+      
+          <a href="sair.html">
+            <button class="game_button" id="quit_game">Sair</button>
+          </a>
+            
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

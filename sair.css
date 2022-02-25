@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+
+#titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(0, 0, 0);
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 6%;
+    font-size: 12px;
+}
+
+#gif{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+    width: 60vw;
+    margin-top: 10%;
+}
+
+@media (min-width: 376px){
+    #titulo {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 426px){
+    #titulo {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 769px){
+    #titulo {
+        font-size: 2em;
+    }
+}
